@@ -1,0 +1,446 @@
+.main {
+    width: 100%;
+    height: 956px;
+    background: url(../images/inner2_bg_b8b4bef.jpg) no-repeat center top;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-rnav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    width: 190px;
+    height: 80px;
+    background: url(../images/index_logo_20f94db.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.index-right {
+    height: 28px;
+    width: 320px;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: 200px;
+    border-radius: 20px;
+    border: 1px solid #9a3641;
+}
+
+.index-right a:first-child{
+    color: #fff;
+    display: block;
+    width: 88px;
+    height: 28px;
+    background: url(../images/components_z_91719aa.png) -1856px -1122px ;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+    font-size: 14px;
+}
+/* 扫一扫下载游戏 */
+.index-right a:first-child .qr-code{
+    width: 85px;
+    height: 100px;
+    background: url(../images/components_z_91719aa.png) -1830px -207px;
+    position: absolute;
+    top: 27px;
+    display: none;
+}
+.index-right a:first-child img {
+    margin-top: 3px;
+}
+.index-right a:first-child p{
+    height: 20px;
+    margin-top: -10px;
+    line-height: 20px;
+}
+.index-right a:first-child:hover{
+    background: url(../images/components_z_91719aa.png) -1856px -1167px ;
+}
+.index-right a:first-child:hover .qr-code{
+    display: block;
+}
+
+.index-right a:nth-of-type(2){
+    color: #9a3641;
+    display: block;
+    width: 78px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 4px;
+    font-size: 14px;
+    border-right: 1px solid #9a3641;
+}
+.index-right a:nth-of-type(2):hover{
+    color: black;
+}
+
+/* inner-title */
+.inner-title{
+    width: 130px;
+    height: 450px;
+    background: url(../images/inner2_title_a0435da.png) no-repeat;
+    position: absolute;
+    top: 35px;
+    left: 280px;
+}
+/* .tip */
+.avatar_frame{
+    width: 690px;
+    height: 391px;
+    background: url(../images/avatar_frame_94ec30e.png) no-repeat;
+    position: absolute;
+    top: 35px;
+    left: 410px;
+}
+/* 点击的英雄 */
+.hero-one{
+    height: 335px;
+    width: 296px;
+    background: url(../images/components_z_91719aa.png) -1184px -662px;
+    position: absolute;
+    top: 21px;
+    left: 51px;
+    display: none;
+    cursor: pointer;
+}
+.hero-two{
+    height: 335px;
+    width: 296px;
+    background: url(../images/components_z_91719aa.png) -1184px -662px;
+    position: absolute;
+    top: 21px;
+    left: 345px;
+    display: none;
+    cursor: pointer;
+}
+
+
+.avatar_frame .pair{
+    width: 690px;
+    height: 391px;
+    background: url(../images/tip_b153ede.png)  no-repeat; 
+}
+
+/* 英雄列表 */
+.avatar_frame .people{
+    width: 690px;
+    height: 142px;   
+    position: absolute;
+}
+/* 性别 */
+.sex{
+    height: 142px;
+    float: left;
+    margin-top: 8px;
+}
+.sex .s-man{
+    width: 45px;
+    height: 60px;
+    background: url(../images/components_z_91719aa.png) -1890px -627px no-repeat;  
+}
+.sex .s-woman{
+    width: 45px;
+    height: 60px;
+    background: url(../images/components_z_91719aa.png) -1810px -707px no-repeat;
+    margin-top: 20px;
+}
+/* 英雄 */
+.avatar_frame .people .hero{
+    width: 645px;
+    height: 142px;
+    float: right;
+}
+.avatar_frame .people .man{
+    width: 660px;
+    height: 67px;  
+}
+/* 英雄男 */
+.people .man .m-hero{
+    height: 74px;
+    width: 60px;
+    background: url(../images/avatar_small_1e61e29.png) 0 1px no-repeat;
+    float: left;
+    margin-right: 6px;
+    /* border-radius: 50%; */
+    cursor: pointer;
+}
+.people .man .m-hero:nth-of-type(1):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) 0 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(2){
+    background: url(../images/avatar_small_1e61e29.png) -66px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(2):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -66px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(3){
+    background: url(../images/avatar_small_1e61e29.png) -132px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(3):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -132px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(4){
+    background: url(../images/avatar_small_1e61e29.png) -200px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(4):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -200px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(5){
+    background: url(../images/avatar_small_1e61e29.png) -266px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(5):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -266px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(6){
+    background: url(../images/avatar_small_1e61e29.png) -332px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(6):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -332px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(7){
+    background: url(../images/avatar_small_1e61e29.png) -398px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(7):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -398px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(8){
+    background: url(../images/avatar_small_1e61e29.png) -463px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(8):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -463px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(9){
+    background: url(../images/avatar_small_1e61e29.png) -532px 1px no-repeat;
+}
+
+.people .man .m-hero:nth-of-type(9):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -532px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(10):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -600px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(10){
+    background: url(../images/avatar_small_1e61e29.png) -600px 1px no-repeat;
+}
+
+.people .man .m-hero:nth-of-type(9):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -532px 1px no-repeat;
+}
+.people .man .m-hero:nth-of-type(10):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -600px 1px no-repeat;
+}
+/* 英雄女 */
+.avatar_frame .people .woman{
+    width: 660px;
+    height: 67px;
+    margin-top: 10px;
+}
+.people .woman .wo-hero{
+    height: 74px;
+    width: 60px;
+    background: url(../images/avatar_small_1e61e29.png) 0 -74px no-repeat;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.people .woman .wo-hero:nth-of-type(1):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) 0 -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(2){
+    background: url(../images/avatar_small_1e61e29.png) -66px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(2):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -66px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(3){
+    background: url(../images/avatar_small_1e61e29.png) -132px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(3):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -132px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(4){
+    background: url(../images/avatar_small_1e61e29.png) -200px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(4):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -200px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(5){
+    background: url(../images/avatar_small_1e61e29.png) -266px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(5):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -266px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(6){
+    background: url(../images/avatar_small_1e61e29.png) -332px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(6):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -332px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(7){
+    background: url(../images/avatar_small_1e61e29.png) -398px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(7):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -398px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(8){
+    background: url(../images/avatar_small_1e61e29.png) -463px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(8):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -463px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(9){
+    background: url(../images/avatar_small_1e61e29.png) -532px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(9):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -532px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(10){
+    background: url(../images/avatar_small_1e61e29.png) -600px -74px no-repeat;
+}
+.people .woman .wo-hero:nth-of-type(10):hover{
+    background: url(../images/avatar_small_hover_3e7e547.png) -600px -74px no-repeat;
+}
+/* 点击配对按钮 */
+.avatar_frame .click-pair{
+    width: 158px;
+    height: 40px;
+    background: url(../images/components_z_91719aa.png) -548px -1822px no-repeat;
+    position: absolute;
+    bottom: -200px;
+    right: -10px;
+}
+.avatar_frame .click-pair:hover{
+    background: url(../images/components_z_91719aa.png) -706px -1822px no-repeat;
+}
+/* cp */
+.cp{
+    width: 410px;
+    height: 90px;
+    background: url(../images/components_z_91719aa.png) 0 -1595px;
+    position: absolute;
+    top: 186px;
+    left: 1157px;
+}
+
+/* 右侧导航 */
+.appbg {
+    width: 1920px;
+    height: 650px;
+    background: url(../images/appbg_0cb2dae.png) no-repeat;
+    margin: 140px auto;
+    position: relative;
+}
+
+.appbg .app-r {
+    width: 139px;
+    height: 279px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/components_z_91719aa.png) -1480px 0;
+}
+.appbg .app-r .result-page{
+    width: 77px;
+    height: 170px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url(../images/components_z_91719aa.png) -1697px -208px;
+}
+.appbg .app-r .result-page:hover{
+    background: url(../images/components_z_91719aa.png) -1620px -208px;
+}
+.appbg .app-r .count{
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    position: relative;
+}
+.appbg .app-r .count::before{
+    content: "";
+    width: 190px;
+    height: 60px;
+    position: absolute;
+    top: 11px;
+    left: -190px;
+    opacity: 0;
+}
+/* 前世情缘 */
+.appbg .app-r .qshm{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url(../images/components_z_91719aa.png) -1866px -545px no-repeat;
+}
+.appbg .app-r .qshm::before{
+    background: url(../images/components_z_91719aa.png) -1619px -707px no-repeat;
+}
+.appbg .app-r .qshm:hover::before{
+    opacity: 1;
+}
+
+/* 宿命之敌 */
+.appbg .app-r .smzd{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    background: url(../images/components_z_91719aa.png) -1843px -379px no-repeat;
+}
+.appbg .app-r .smzd::before{
+    background: url(../images/components_z_91719aa.png) -1619px -767px;
+}
+.appbg .app-r .smzd:hover{
+    background: url(../images/components_z_91719aa.png) -1619px -462px no-repeat;
+}
+.appbg .app-r .smzd:hover::before{
+    opacity: 1;
+}
+
+/* 焕然新生 */
+.appbg .app-r .hrxs{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    transform: translateX(-50%);
+    background: url(../images/components_z_91719aa.png) -1775px -463px no-repeat;
+}
+.appbg .app-r .hrxs::before{
+    background: url(../images/components_z_91719aa.png) -1619px -827px no-repeat;
+}
+.appbg .app-r .hrxs:hover{
+    background: url(../images/components_z_91719aa.png) -1857px -463px no-repeat;
+}
+.appbg .app-r .hrxs:hover::before{
+    opacity: 1;
+}
+
+/* 再续前缘 */
+.appbg .app-r .zxqy{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,50%);
+    background: url(../images/components_z_91719aa.png) -1701px -545px no-repeat;
+}
+.appbg .app-r .zxqy::before{
+    background: url(../images/components_z_91719aa.png) -1700px -627px no-repeat;
+}
+.appbg .app-r .zxqy:hover{
+    background: url(../images/components_z_91719aa.png) -1783px -545px no-repeat;
+}
+.appbg .app-r .zxqy:hover::before{
+    opacity: 1;
+}

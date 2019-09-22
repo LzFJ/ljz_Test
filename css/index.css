@@ -1,0 +1,137 @@
+.main{
+    width: 100%;
+    height: 956px;
+    background: url(../images/index_bg1_2bc4ce8.jpg) no-repeat center top;
+    position: relative;
+    overflow: hidden;
+}
+.logo-rnav{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.logo{
+    width: 190px;
+    height: 80px;
+    background: url(../images/index_logo_20f94db.png) no-repeat;  
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: -600px;
+}
+.index-right{
+    height: 28px;
+    width: 320px;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: 200px;
+    border-radius: 20px;
+    border: 1px solid #9a3641;
+}
+.index-right a:first-child{
+    color: #fff;
+    display: block;
+    width: 88px;
+    height: 28px;
+    background: url(../images/components_z_91719aa.png) -1856px -1122px ;
+    text-align: center;
+    line-height: 28px;
+    position: relative;
+    font-size: 14px;
+}
+/* 扫一扫下载游戏 */
+.index-right a:first-child .qr-code{
+    width: 85px;
+    height: 100px;
+    background: url(../images/components_z_91719aa.png) -1830px -207px;
+    position: absolute;
+    top: 27px;
+    display: none;
+}
+.index-right a:first-child img {
+    margin-top: 3px;
+}
+.index-right a:first-child p{
+    height: 20px;
+    margin-top: -10px;
+    line-height: 20px;
+}
+.index-right a:first-child:hover{
+    background: url(../images/components_z_91719aa.png) -1856px -1167px ;
+}
+.index-right a:first-child:hover .qr-code{
+    display: block;
+}
+
+.index-right a:nth-of-type(2){
+    color: #9a3641;
+    display: block;
+    width: 78px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 4px;
+    font-size: 14px;
+    border-right: 1px solid #9a3641;
+}
+.index-right a:nth-of-type(2):hover{
+    color: black;
+}
+/* slogan */
+.slogan{
+    width: 270px;
+    height: 415px;
+    background: url(../images/index_slogan_5507d80.png) no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.corner{
+    width: 330px;
+    height: 157px;
+    background: url(../images/components_z_91719aa.png) -1620px 0;
+    position: absolute;
+    right: 0;
+}
+.peopleleft{
+    width: 678px;
+    height: 682px;
+    background: url(../images/peopleleft_a5c5ea1.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin:  0  0  0 -780px;
+}
+.peoplemid{
+    width: 838px;
+    height: 933px;
+    background: url(../images/peoplemid_3442653.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.peopleright{
+    width: 475px;
+    height: 546px;
+    background: url(../images/peopleright_0e60a59.png) no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin:  0  0  0  250px;
+}
+.index-btn{
+    width: 467px;
+    height: 96px;
+    background: url(../images/index_btn_b5e44a7.png) 0 0 no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 610px;
+    transform: translateX(-50%); 
+}
+.index-btn:hover{
+    background-position: 0 100%;
+}
