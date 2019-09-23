@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="" />
+    <style>
+        * {
+            padding: 0;
+            margin:0;
+        }
+      .box {
+        width: 1920px;
+        height: 1080px;
+        background: url(./images/loadbg1_3986185.jpg) no-repeat center;
+        margin: 0 auto;
+      }
+      .center {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .center span {
+          float: left;
+      }
+      .line {
+        height: 3px;
+        width: 300px;
+        background-color: rgba(209, 190, 190, 0.4);
+        text-align: center;
+        
+      }
+      .word {
+        position: relative;
+        bottom: 34px;
+        font-size: 50px;
+        padding: 0 50px;
+        float: left;
+        text-decoration: none;
+        /* background-color: #3a93e7; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="center">
+            <span class="line"></span>
+            <a href="index.html" class="word">100%</a>
+            <span class="line"></span>
+      </div>
+    </div>
+    <script>
+        var word = document.querySelector('.word');
+
+        var count = 0;
+        var timerId = setInterval(function(){
+            if(count == 100){
+                // location.href = word.href;
+                // clearInterval(timerId);
+            }else{
+                count++;
+                word.innerText = count + '%';
+
+            }
+        },20)
+    
+    </script>
+  </body>
+</html>
